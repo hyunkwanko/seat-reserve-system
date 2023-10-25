@@ -2,13 +2,13 @@
 
 ### Pre-requirement
 
-> - Spring Boot 2.7.16
-> - OpenJDK 11.0.14
-> - Kotlin
-> - JPA
-> - Mysql 8.0
-> - Gradle
-> - Docker
+    * Spring Boot 2.7.16
+    * OpenJDK 11.0.14
+    * Kotlin
+    * JPA
+    * Mysql 8.0
+    * Gradle
+    * Docker
 
 ### Run On Local Environment
 
