@@ -32,6 +32,9 @@
     - Controller 패키지 하위 도메인별 http 파일 확인
 
     # 작성된 Test Code 실행
+    # 배치 코드 
+    - batch 패키지
+        - 매일 자정(0시) 좌석 정보 초기화
 
 ### Swagger
 
