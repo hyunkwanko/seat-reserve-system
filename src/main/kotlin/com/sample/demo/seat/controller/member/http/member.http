@@ -1,0 +1,8 @@
+### 테스트 직원 생성 API
+POST localhost:8080/api/v1/members
+Content-Type: application/json
+
+{}
+
+### 전 직원 근무형태 현황 조회 API
+GET localhost:8080/api/v1/members?page=0&size=20

@@ -1,0 +1,26 @@
+### 테스트 좌석 생성 API
+POST localhost:8080/api/v1/seats
+Content-Type: application/json
+
+{}
+
+### 전 좌석 현황 조회 API
+GET localhost:8080/api/v1/seats?page=0&size=20
+
+### 좌석 예약 API
+POST localhost:8080/api/v1/seat
+Content-Type: application/json
+
+{
+  "memberId": 2,
+  "seatId": 5
+}
+
+### 좌석 예약 취소 API
+PATCH localhost:8080/api/v1/seat
+Content-Type: application/json
+
+{
+  "memberId": 2,
+  "seatId": 5
+}

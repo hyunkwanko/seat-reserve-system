@@ -1,0 +1,2 @@
+### 직원 좌석 예약 히스토리 정보 조회 API
+GET localhost:8080/api/v1/2/seatHistories?page=0&size=20
